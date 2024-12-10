@@ -1,7 +1,7 @@
 ---
-title: 記事のタイトルを記入
+title: shaka-packagerを使って、パッケージング&配信まで
 tags:
-  - Unity
+  - ShakaPackager
   - DRM
 private: true
 updated_at: '2024-12-09T20:47:09+09:00'
@@ -13,8 +13,10 @@ ignorePublish: false
 
 # 記事のタイトル
 
-## 概要
-この記事の概要を記述します。
+## shaka-packagerとは？
+Googleが公開している、HLSのパッケージャです。
+https://github.com/google/shaka-packager
+mp4ファイルをHLSで配信できる形にフォーマットするパッケージになります。
 
 ## 内容
 本文をここに記述します。
