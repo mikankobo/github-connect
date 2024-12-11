@@ -4,7 +4,7 @@ tags:
   - DRM
   - ShakaPackager
 private: true
-updated_at: '2024-12-10T14:31:49+09:00'
+updated_at: '2024-12-11T13:42:38+09:00'
 id: ec014bfd05483e5d5a2d
 organization_url_name: null
 slide: false
