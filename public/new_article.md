@@ -18,8 +18,35 @@ Googleが公開している、HLSのパッケージャです。
 https://github.com/google/shaka-packager
 mp4ファイルをHLSで配信できる形にフォーマットするパッケージになります。
 
-## 内容
-本文をここに記述します。
+## shaka-packager導入
+cmakeをhomebrewでインストールする
+
+```
+brew install cmake
+```
+shaka-packagerをクローンする
+```
+git clone https://github.com/google/shaka-packager.git
+```
+ビルド用のフォルダを準備します
+```
+cd /path/to/shaka-packager
+mkdir build
+cd build
+```
+cmakeビルドとmakeビルドします
+```
+cmake ..
+make
+```
+ビルドしたpackagerのバージョンを確認します
+```
+cd path/to/shaka-packager/build/packager
+./packager --version
+```
+これで導入は完了です。
+
+
 
 ### セクション1
 セクション1の内容。
